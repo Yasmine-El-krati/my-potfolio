@@ -46,7 +46,7 @@ const Hero: React.FC = () => {
               
               <div className="relative w-full h-full rounded-3xl overflow-hidden glass-card shadow-2xl flex items-center justify-center border-2 border-white/20">
                 <img 
-                  src="WhatsApp Image 2026-02-10 at 6.14.23 PM.jpeg"
+                  src="my-potfolio/WhatsApp Image 2026-02-10 at 6.14.23 PM.jpeg"
                   alt={PERSONAL_DETAILS.name} 
                   className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-700"
                 />
