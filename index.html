@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yasmine El Krati | AI & Software Engineering Portfolio</title>
+    <meta name="description" content="Portfolio of Yasmine El Krati, Undergraduate Student in Artificial Intelligence & Software Engineering. Explore projects in Python, web development, and data analysis.">
+    
+    <!-- OpenGraph -->
+    <meta property="og:title" content="Yasmine El Krati | AI & Software Engineering Portfolio">
+    <meta property="og:description" content="Discover the work and skills of Yasmine El Krati, specializing in AI and software development.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yasmineelkrati.github.io/">
+    <meta property="og:image" content="https://picsum.photos/1200/630?random=1">
+
+    <!-- SEO & Icons -->
+    <link rel="canonical" href="https://yasmineelkrati.github.io/">
+    <link rel="icon" type="image/png" href="https://picsum.photos/32/32?random=2">
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            light: '#6366f1',
+                            dark: '#818cf8',
+                        },
+                        secondary: {
+                            light: '#4f46e5',
+                            dark: '#6366f1',
+                        }
+                    },
+                    animation: {
+                        'gradient-x': 'gradient-x 15s ease infinite',
+                        'float': 'float 6s ease-in-out infinite',
+                    },
+                    keyframes: {
+                        'gradient-x': {
+                            '0%, 100%': { 'background-size': '200% 200%', 'background-position': 'left center' },
+                            '50%': { 'background-size': '200% 200%', 'background-position': 'right center' },
+                        },
+                        'float': {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-20px)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- JSON-LD Structured Data -->
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Yasmine El Krati",
+      "url": "https://yasmineelkrati.github.io/",
+      "jobTitle": "Undergraduate Student in Artificial Intelligence & Software Engineering",
+      "alumniOf": "Faculty of Multidisciplinary Studies of Ouarzazate",
+      "sameAs": [
+        "https://www.linkedin.com/in/yasmine-el-krati-7aa216330/"
+      ],
+      "description": "Currently in the third year of the program in Artificial Intelligence and Software Engineering with hands-on experience in Python, C/C++, JavaScript, and web technologies."
+    }
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        h1, h2, h3, h4 {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease-out;
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        .dark .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+    <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@19.0.0",
+    "react-dom": "https://esm.sh/react-dom@19.0.0",
+    "react-dom/client": "https://esm.sh/react-dom@19.0.0/client",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/"
+  }
+}
+</script>
+</head>
+<body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 transition-colors duration-300">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
