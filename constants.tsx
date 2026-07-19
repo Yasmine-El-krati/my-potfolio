@@ -18,18 +18,18 @@ export const SKILLS = {
       "C++",
       "HTML",
       "CSS",
-      "JavaScript"
+      "JavaScript",
 
       "Object-Oriented Programming",
       "Web Scraping",
       "Data Analysis",
-      "Data Structures & Algorithms"
+      "Data Structures & Algorithms",
 
       "Machine Learning",
       "Deep Learning (CNN, MLP)",
       "Natural Language Processing (NLP)",
       "Computer Vision",
-      "Image Processing"
+      "Image Processing",
  
   
   ],
