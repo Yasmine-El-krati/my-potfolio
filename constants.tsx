@@ -12,7 +12,6 @@ export const PERSONAL_DETAILS = {
 
 export const SKILLS = {
   technical: [ 
-    languages: [
       "Python",
       "Java",
       "C",
@@ -20,38 +19,18 @@ export const SKILLS = {
       "HTML",
       "CSS",
       "JavaScript"
-    ],
 
-    concepts: [
       "Object-Oriented Programming",
       "Web Scraping",
       "Data Analysis",
       "Data Structures & Algorithms"
-    ],
 
-    libraries: [
-      "NumPy",
-      "Pandas",
-      "Requests",
-      "BeautifulSoup",
-      "Matplotlib",
-      "Tkinter",
-      "Flask",
-      "Django",
-      "Scikit-learn",
-      "OpenCV",
-      "TensorFlow",
-      "Keras",
-      "PyTorch"
-    ],
-
-    AI and Data: [
       "Machine Learning",
       "Deep Learning (CNN, MLP)",
       "Natural Language Processing (NLP)",
       "Computer Vision",
       "Image Processing"
-    ]
+ 
   
   ],
   soft: [
