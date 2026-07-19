@@ -44,13 +44,9 @@ const Hero: React.FC = () => {
               <div className="absolute inset-0 bg-gradient-to-tr from-primary-light to-violet-400 rounded-3xl rotate-6 animate-pulse opacity-20"></div>
               <div className="absolute inset-0 bg-gradient-to-bl from-primary-light to-indigo-400 rounded-3xl -rotate-6 opacity-20"></div>
               
-              <div className="relative w-full h-full rounded-3xl overflow-hidden glass-card shadow-2xl flex items-center justify-center border-2 border-white/20">
-                <img 
-                  src="/Screenshot 2026-07-19 011442.png"
-                   alt={PERSONAL_DETAILS.name} 
-                  className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-700"
-                />
-              </div>
+              
+               <div className="relative w-full h-full rounded-3xl overflow-hidden bg-black shadow-2xl flex items-center justify-center border-2 border-white/20">
+</div>
 
               {/* Float badges */}
               <div className="absolute -top-6 -right-6 md:-top-10 md:-right-10 animate-float">
