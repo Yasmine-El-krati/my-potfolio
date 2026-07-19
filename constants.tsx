@@ -11,7 +11,8 @@ export const PERSONAL_DETAILS = {
 };
 
 export const SKILLS = {
-  technical: [ languages: [
+  technical: [ 
+    languages: [
       "Python",
       "Java",
       "C",
@@ -51,13 +52,7 @@ export const SKILLS = {
       "Computer Vision",
       "Image Processing"
     ]
-  }
-    "Python",
-    "C / C++",
-    "JavaScript",
-    "HTML & CSS",
-    "SQL (MySQL)",
-    "Data Structures & Algorithms"
+  
   ],
   soft: [
     "Problem Solving",
